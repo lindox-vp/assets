@@ -287,8 +287,8 @@ const App = function () {
         const toTopElement = document.createElement('button'),
               toTopElementIcon = document.createElement('i'),
               toTopButtonContainer = document.createElement('div'),
-              toTopButtonColorClass = 'btn-secondary',
-              toTopButtonIconClass = 'ph-arrow-up',
+              toTopButtonColorClass = 'btn-warning',
+              toTopButtonIconClass = 'ph-arrow-bend-right-up',
               scrollableDistance = 250,
               footerContainer = document.querySelector('.navbar-footer');
 
