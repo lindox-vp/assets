@@ -13,7 +13,7 @@ a.btn,
 .card-group,
 .dropdown-menu,
 .navbar-nav-link { 
-    border-radius: 15px;
+    border-radius: 15px !important;
 }
 
 .input-group .input-group-text {
