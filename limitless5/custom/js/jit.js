@@ -1,5 +1,5 @@
 class jit {
-    static applyDynamicStyles() {
+    static dynamicStyles() {
         const properties = {
             "fs"     : "font-size",
             "fw"     : "font-weight",
