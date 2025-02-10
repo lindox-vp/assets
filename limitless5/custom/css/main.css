@@ -11,7 +11,8 @@ a.btn,
 .sidebar-expand-lg,
 .card,
 .card-group,
-.dropdown-menu { 
+.dropdown-menu,
+.navbar-nav-link.active, .navbar-nav-link.show, .navbar-nav-link[aria-expanded=true] { 
     border-radius: 15px;
 }
 
