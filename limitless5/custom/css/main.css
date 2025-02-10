@@ -335,3 +335,9 @@ td.dataTables_empty {
 .datatable-footer {
     border-top-color: #666;
 }
+
+/* label */
+label,
+.form-label {
+    margin-bottom: 3px;
+}
