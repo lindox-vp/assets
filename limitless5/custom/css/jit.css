@@ -1,0 +1,167 @@
+
+/* font size */
+[class^="fs-"], [class*=" fs-"] {
+    font-size: var(--fs, inherit);
+}
+
+/* font weight */
+[class^="fw-"], [class*=" fw-"] {
+    font-weight: var(--fw, inherit);
+}
+
+/* margin */
+[class^="m-"], [class*=" m-"] {
+    margin: var(--m, inherit);
+}
+
+[class^="mt-"], [class*=" mt-"] {
+    margin-top: var(--mt, inherit);
+}
+
+[class^="mb-"], [class*=" mb-"] {
+    margin-bottom: var(--mb, inherit);
+}
+
+[class^="ml-"], [class*=" ml-"] {
+    margin-left: var(--ml, inherit);
+}
+
+[class^="mr-"], [class*=" mr-"] {
+    margin-right: var(--mr, inherit);
+}
+
+/* padding */
+[class^="p-"], [class*=" p-"] {
+    padding: var(--p, inherit);
+}
+
+[class^="pt-"], [class*=" pt-"] {
+    padding-top: var(--pt, inherit);
+}
+
+[class^="pb-"], [class*=" pb-"] {
+    padding-bottom: var(--pb, inherit);
+}
+
+[class^="pl-"], [class*=" pl-"] {
+    padding-left: var(--pl, inherit);
+}
+
+[class^="pr-"], [class*=" pr-"] {
+    padding-right: var(--pr, inherit);
+}
+
+/* positioning */
+[class^="top-"], [class*=" top-"] {
+    top: var(--top, auto);
+}
+
+[class^="bottom-"], [class*=" bottom-"] {
+    bottom: var(--bottom, auto);
+}
+
+[class^="right-"], [class*=" right-"] {
+    right: var(--right, auto);
+}
+
+[class^="left-"], [class*=" left-"] {
+    left: var(--left, auto);
+}
+
+/* sizing */
+[class^="w-"], [class*=" w-"] {
+    width: var(--w, auto);
+}
+
+[class^="h-"], [class*=" h-"] {
+    height: var(--h, auto);
+}
+
+[class^="minw-"], [class*=" minw-"] {
+    min-width: var(--minw, auto);
+}
+
+[class^="maxw-"], [class*=" maxw-"] {
+    max-width: var(--maxw, auto);
+}
+
+[class^="minh-"], [class*=" minh-"] {
+    min-height: var(--minh, auto);
+}
+
+[class^="maxh-"], [class*=" maxh-"] {
+    max-height: var(--maxh, auto);
+}
+
+/* colors */
+[class^="bg-"], [class*=" bg-"] {
+    background-color: var(--bg, transparent);
+}
+
+[class^="c-"], [class*=" c-"] {
+    color: var(--c, inherit);
+}
+
+/* borders & shadows */
+[class^="bd-"], [class*=" bd-"] {
+    border: var(--bd, none);
+}
+
+[class^="bdr-"], [class*=" bdr-"] {
+    border-radius: var(--bdr, 0);
+}
+
+[class^="bs-"], [class*=" bs-"] {
+    box-shadow: var(--bs, none);
+}
+
+/* display & opacity */
+[class^="d-"], [class*=" d-"] {
+    display: var(--d, block);
+}
+
+[class^="o-"], [class*=" o-"] {
+    opacity: var(--o, 1);
+}
+
+/* flexbox & grid */
+[class^="z-"], [class*=" z-"] {
+    z-index: var(--z, auto);
+}
+
+[class^="gap-"], [class*=" gap-"] {
+    gap: var(--gap, 0);
+}
+
+[class^="jc-"], [class*=" jc-"] {
+    justify-content: var(--jc, flex-start);
+}
+
+[class^="ai-"], [class*=" ai-"] {
+    align-items: var(--ai, stretch);
+}
+
+[class^="fwrap-"], [class*=" fwrap-"] {
+    flex-wrap: var(--fwrap, nowrap);
+}
+
+[class^="fd-"], [class*=" fd-"] {
+    flex-direction: var(--fd, row);
+}
+
+/* typography */
+[class^="ta-"], [class*=" ta-"] {
+    text-align: var(--ta, left);
+}
+
+[class^="ls-"], [class*=" ls-"] {
+    letter-spacing: var(--ls, normal);
+}
+
+[class^="ws-"], [class*=" ws-"] {
+    word-spacing: var(--ws, normal);
+}
+
+[class^="lh-"], [class*=" lh-"] {
+    line-height: var(--lh, normal);
+}
