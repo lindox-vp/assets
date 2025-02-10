@@ -41,17 +41,16 @@ class jit {
             "ws"     : "word-spacing",
             "lh"     : "line-height"
         };
-    
+
         Object.keys(properties).forEach(prefix => {
             document.querySelectorAll(`[class*="${prefix}-<"]`).forEach(el => {
-                let match = el.className.match(new RegExp(`${prefix}-<(.*?)>`));
+                let match = el.className.match(new RegExp(`\\b${prefix}-<(.*?)>`));
                 if (match) {
                     el.style[properties[prefix]] = match[1];
                 }
             });
         });
     }
-    
 }
 
 export default jit;
