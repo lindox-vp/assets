@@ -111,6 +111,7 @@
     border-left: var(--bds, none);
 }
 
+
 [class^="bde-"], [class*=" bde-"] {
     border-right: var(--bde, none);
 }
