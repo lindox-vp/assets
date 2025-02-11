@@ -162,6 +162,10 @@
     word-spacing: var(--ws, normal);
 }
 
+[class^="tt-"], [class*=" tt-"] {
+    text-transform: var(--tt, normal);
+}
+
 [class^="lh-"], [class*=" lh-"] {
     line-height: var(--lh, normal);
 }

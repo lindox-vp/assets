@@ -39,6 +39,7 @@ class jit {
             "ta"     : "text-align",
             "ls"     : "letter-spacing",
             "ws"     : "word-spacing",
+            "tt"     : "text-transform",
             "lh"     : "line-height"
         };
 
