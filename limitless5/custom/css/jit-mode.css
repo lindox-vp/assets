@@ -112,7 +112,7 @@
 }
 
 [class^="bdsc-"], [class*=" bdsc-"] {
-    border-right-color: var(--bdsc, none) !important;
+    border-left-color: var(--bdsc, none) !important;
 }
 
 [class^="bde-"], [class*=" bde-"] {
