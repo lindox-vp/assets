@@ -112,7 +112,7 @@
 }
 
 [class^="bdsc-"], [class*=" bdsc-"] {
-    border-left-color: var(--bdsc, transparent) !important;
+    border-left-color: var(--bdsc, inherit) !important;
 }
 
 [class^="bde-"], [class*=" bde-"] {
@@ -120,7 +120,7 @@
 }
 
 [class^="bdec-"], [class*=" bdec-"] {
-    border-right-color: var(--bdec, transparent) !important;
+    border-right-color: var(--bdec, inherit) !important;
 }
 
 [class^="bdr-"], [class*=" bdr-"] {
@@ -128,7 +128,7 @@
 }
 
 [class^="bdc-"], [class*=" bdc-"] {
-    border-color: var(--bdc, transparent) !important;
+    border-color: var(--bdc, inherit) !important;
 }
 
 [class^="bs-"], [class*=" bs-"] {
