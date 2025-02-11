@@ -112,7 +112,7 @@
 }
 
 [class^="bdsc-"], [class*=" bdsc-"] {
-    border-left-color: var(--bdsc, none) !important;
+    border-left-color: var(--bdsc, transparent) !important;
 }
 
 [class^="bde-"], [class*=" bde-"] {
@@ -120,7 +120,7 @@
 }
 
 [class^="bdec-"], [class*=" bdec-"] {
-    border-right-color: var(--bdec, none) !important;
+    border-right-color: var(--bdec, transparent) !important;
 }
 
 [class^="bdr-"], [class*=" bdr-"] {
@@ -128,7 +128,7 @@
 }
 
 [class^="bdc-"], [class*=" bdc-"] {
-    border-color: var(--bdc, none) !important;
+    border-color: var(--bdc, transparent) !important;
 }
 
 [class^="bs-"], [class*=" bs-"] {
