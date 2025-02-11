@@ -2,6 +2,7 @@
     font-family: "Poppins", serif;
 }
 
+/* radius */
 button.btn,
 a.btn,
 .select2-dropdown,
@@ -16,14 +17,7 @@ a.btn,
     border-radius: 15px !important;
 }
 
-.input-group .input-group-text {
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 3px;
-    font-size: 13px;
-}
-
+.input-group .input-group-text,
 label.form-control,
 input.form-control,
 textarea.form-control,
@@ -45,8 +39,6 @@ input[name="captcha"].form-control {
 .modal-content {
     border-radius: 25px !important;
 }
-
-
 
 /* captcha */
 .img-captcha {
