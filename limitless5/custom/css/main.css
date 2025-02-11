@@ -3,6 +3,10 @@
 }
 
 /* radius */
+.rounded-pill {
+    border-radius: 25px !important;
+}
+
 button.btn,
 a.btn,
 .select2-dropdown,
