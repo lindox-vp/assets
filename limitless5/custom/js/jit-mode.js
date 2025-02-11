@@ -27,6 +27,7 @@ class jit {
             "c"      : "color",
             "bd"     : "border",
             "bdr"    : "border-radius",
+            "bdc"    : "border-color",
             "bs"     : "box-shadow",
             "d"      : "display",
             "o"      : "opacity",
