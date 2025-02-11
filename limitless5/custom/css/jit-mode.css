@@ -111,9 +111,16 @@
     border-left: var(--bds, none);
 }
 
+[class^="bdsc-"], [class*=" bdsc-"] {
+    border-right-color: var(--bdsc, none);
+}
 
 [class^="bde-"], [class*=" bde-"] {
     border-right: var(--bde, none);
+}
+
+[class^="bdec-"], [class*=" bdec-"] {
+    border-right-color: var(--bdec, none);
 }
 
 [class^="bdr-"], [class*=" bdr-"] {
@@ -121,7 +128,7 @@
 }
 
 [class^="bdc-"], [class*=" bdc-"] {
-    border-color: var(--bdc, 0);
+    border-color: var(--bdc, none);
 }
 
 [class^="bs-"], [class*=" bs-"] {
