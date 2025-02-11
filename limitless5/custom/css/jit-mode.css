@@ -1,191 +1,191 @@
 
 /* font size */
 [class^="fs-"], [class*=" fs-"] {
-    font-size: var(--fs, inherit);
+    font-size: var(--fs, inherit) !important;
 }
 
 /* font weight */
 [class^="fw-"], [class*=" fw-"] {
-    font-weight: var(--fw, inherit);
+    font-weight: var(--fw, inherit) !important;
 }
 
 /* margin */
 [class^="m-"], [class*=" m-"] {
-    margin: var(--m, inherit);
+    margin: var(--m, inherit) !important;
 }
 
 [class^="mt-"], [class*=" mt-"] {
-    margin-top: var(--mt, inherit);
+    margin-top: var(--mt, inherit) !important;
 }
 
 [class^="mb-"], [class*=" mb-"] {
-    margin-bottom: var(--mb, inherit);
+    margin-bottom: var(--mb, inherit) !important;
 }
 
 [class^="ml-"], [class*=" ml-"] {
-    margin-left: var(--ml, inherit);
+    margin-left: var(--ml, inherit) !important;
 }
 
 [class^="mr-"], [class*=" mr-"] {
-    margin-right: var(--mr, inherit);
+    margin-right: var(--mr, inherit) !important;
 }
 
 /* padding */
 [class^="p-"], [class*=" p-"] {
-    padding: var(--p, inherit);
+    padding: var(--p, inherit) !important;
 }
 
 [class^="pt-"], [class*=" pt-"] {
-    padding-top: var(--pt, inherit);
+    padding-top: var(--pt, inherit) !important;
 }
 
 [class^="pb-"], [class*=" pb-"] {
-    padding-bottom: var(--pb, inherit);
+    padding-bottom: var(--pb, inherit) !important;
 }
 
 [class^="pl-"], [class*=" pl-"] {
-    padding-left: var(--pl, inherit);
+    padding-left: var(--pl, inherit) !important;
 }
 
 [class^="pr-"], [class*=" pr-"] {
-    padding-right: var(--pr, inherit);
+    padding-right: var(--pr, inherit) !important;
 }
 
 /* positioning */
 [class^="top-"], [class*=" top-"] {
-    top: var(--top, auto);
+    top: var(--top, auto) !important;
 }
 
 [class^="bottom-"], [class*=" bottom-"] {
-    bottom: var(--bottom, auto);
+    bottom: var(--bottom, auto) !important;
 }
 
 [class^="right-"], [class*=" right-"] {
-    right: var(--right, auto);
+    right: var(--right, auto) !important;
 }
 
 [class^="left-"], [class*=" left-"] {
-    left: var(--left, auto);
+    left: var(--left, auto) !important;
 }
 
 /* sizing */
 [class^="w-"], [class*=" w-"] {
-    width: var(--w, auto);
+    width: var(--w, auto) !important;
 }
 
 [class^="h-"], [class*=" h-"] {
-    height: var(--h, auto);
+    height: var(--h, auto) !important;
 }
 
 [class^="minw-"], [class*=" minw-"] {
-    min-width: var(--minw, auto);
+    min-width: var(--minw, auto) !important;
 }
 
 [class^="maxw-"], [class*=" maxw-"] {
-    max-width: var(--maxw, auto);
+    max-width: var(--maxw, auto) !important;
 }
 
 [class^="minh-"], [class*=" minh-"] {
-    min-height: var(--minh, auto);
+    min-height: var(--minh, auto) !important;
 }
 
 [class^="maxh-"], [class*=" maxh-"] {
-    max-height: var(--maxh, auto);
+    max-height: var(--maxh, auto) !important;
 }
 
 /* colors */
 [class^="bg-"], [class*=" bg-"] {
-    background-color: var(--bg, transparent);
+    background-color: var(--bg, transparent) !important;
 }
 
 [class^="c-"], [class*=" c-"] {
-    color: var(--c, inherit);
+    color: var(--c, inherit) !important;
 }
 
 /* borders & shadows */
 [class^="bd-"], [class*=" bd-"] {
-    border: var(--bd, none);
+    border: var(--bd, none) !important;
 }
 
 [class^="bds-"], [class*=" bds-"] {
-    border-left: var(--bds, none);
+    border-left: var(--bds, none) !important;
 }
 
 [class^="bdsc-"], [class*=" bdsc-"] {
-    border-right-color: var(--bdsc, none);
+    border-right-color: var(--bdsc, none) !important;
 }
 
 [class^="bde-"], [class*=" bde-"] {
-    border-right: var(--bde, none);
+    border-right: var(--bde, none) !important;
 }
 
 [class^="bdec-"], [class*=" bdec-"] {
-    border-right-color: var(--bdec, none);
+    border-right-color: var(--bdec, none) !important;
 }
 
 [class^="bdr-"], [class*=" bdr-"] {
-    border-radius: var(--bdr, 0);
+    border-radius: var(--bdr, 0) !important;
 }
 
 [class^="bdc-"], [class*=" bdc-"] {
-    border-color: var(--bdc, none);
+    border-color: var(--bdc, none) !important;
 }
 
 [class^="bs-"], [class*=" bs-"] {
-    box-shadow: var(--bs, none);
+    box-shadow: var(--bs, none) !important;
 }
 
 /* display & opacity */
 [class^="d-"], [class*=" d-"] {
-    display: var(--d, block);
+    display: var(--d, block) !important;
 }
 
 [class^="o-"], [class*=" o-"] {
-    opacity: var(--o, 1);
+    opacity: var(--o, 1) !important;
 }
 
 /* flexbox & grid */
 [class^="z-"], [class*=" z-"] {
-    z-index: var(--z, auto);
+    z-index: var(--z, auto) !important;
 }
 
 [class^="gap-"], [class*=" gap-"] {
-    gap: var(--gap, 0);
+    gap: var(--gap, 0) !important;
 }
 
 [class^="jc-"], [class*=" jc-"] {
-    justify-content: var(--jc, flex-start);
+    justify-content: var(--jc, flex-start) !important;
 }
 
 [class^="ai-"], [class*=" ai-"] {
-    align-items: var(--ai, stretch);
+    align-items: var(--ai, stretch) !important;
 }
 
 [class^="fwrap-"], [class*=" fwrap-"] {
-    flex-wrap: var(--fwrap, nowrap);
+    flex-wrap: var(--fwrap, nowrap) !important;
 }
 
 [class^="fd-"], [class*=" fd-"] {
-    flex-direction: var(--fd, row);
+    flex-direction: var(--fd, row) !important;
 }
 
 /* typography */
 [class^="ta-"], [class*=" ta-"] {
-    text-align: var(--ta, left);
+    text-align: var(--ta, left) !important;
 }
 
 [class^="ls-"], [class*=" ls-"] {
-    letter-spacing: var(--ls, normal);
+    letter-spacing: var(--ls, normal) !important;
 }
 
 [class^="ws-"], [class*=" ws-"] {
-    word-spacing: var(--ws, normal);
+    word-spacing: var(--ws, normal) !important;
 }
 
 [class^="tt-"], [class*=" tt-"] {
-    text-transform: var(--tt, normal);
+    text-transform: var(--tt, normal) !important;
 }
 
 [class^="lh-"], [class*=" lh-"] {
-    line-height: var(--lh, normal);
+    line-height: var(--lh, normal) !important;
 }
