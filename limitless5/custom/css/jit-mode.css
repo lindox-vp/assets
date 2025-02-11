@@ -107,6 +107,10 @@
     border: var(--bd, none);
 }
 
+[class^="bde-"], [class*=" bde-"] {
+    border-right: var(--bde, none);
+}
+
 [class^="bdr-"], [class*=" bdr-"] {
     border-radius: var(--bdr, 0);
 }
