@@ -1,4 +1,4 @@
-class jit {
+class Jit {
     static dynamicStyles() {
         const properties = {
             "fs"     : "font-size",
@@ -59,4 +59,4 @@ class jit {
     }
 }
 
-export default jit;
+export default Jit;
