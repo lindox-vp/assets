@@ -2,6 +2,7 @@ class Main {
     constructor() {
         this.init();
         this.layoutTheme();
+        this.truncateBreadcrumbActive();
     }
 
     layoutTheme() {
@@ -42,6 +43,27 @@ class Main {
             
         }
     }
+
+    truncateBreadcrumbActive() {
+        const breadcrumbItem = document.querySelector('.breadcrumb-item.active');
+        if (!breadcrumbItem) return;
+
+        const originalText = breadcrumbItem.getAttribute('data-original-text') || breadcrumbItem.textContent;
+
+        if (window.innerWidth < 1024) { 
+            const maxLength = 20;
+            const truncatedText = originalText.length > maxLength
+                ? originalText.substring(0, maxLength) + '...'
+                : originalText;
+
+            breadcrumbItem.textContent = truncatedText;
+        } else {
+            breadcrumbItem.textContent = originalText;
+        }
+
+        breadcrumbItem.setAttribute('data-original-text', originalText);
+    }
+    
 
     init() {
         if (localStorage.getItem('docsTheme') === 'dark') {
