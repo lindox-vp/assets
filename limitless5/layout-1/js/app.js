@@ -10,7 +10,7 @@
 // Setup module
 // ------------------------------
 
-const App = function () {
+const Layout1 = function () {
 
 
     // Utils
@@ -594,12 +594,12 @@ const App = function () {
 
         // Initialize core
         initCore: function() {
-            App.initBeforeLoad();
-            App.initSidebars();
-            App.initNavigations();
-            App.initComponents();
-            App.initCardActions();
-            App.initDropdowns();
+            Layout1.initBeforeLoad();
+            Layout1.initSidebars();
+            Layout1.initNavigations();
+            Layout1.initComponents();
+            Layout1.initCardActions();
+            Layout1.initDropdowns();
         }
     };
 }();
@@ -610,10 +610,10 @@ const App = function () {
 
 // When content is loaded
 document.addEventListener('DOMContentLoaded', function() {
-    App.initCore();
+    Layout1.initCore();
 });
 
 // When page is fully loaded
 window.addEventListener('load', function() {
-    App.initAfterLoad();
+    Layout1.initAfterLoad();
 });
