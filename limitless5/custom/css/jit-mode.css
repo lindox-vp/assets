@@ -189,3 +189,8 @@
 [class^="lh-"], [class*=" lh-"] {
     line-height: var(--lh, normal) !important;
 }
+
+/* cursor */
+[class^="cursor-"], [class*=" cursor-"] {
+    cursor: var(--cursor, none) !important;
+}

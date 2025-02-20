@@ -45,7 +45,8 @@ class Jit {
             "ls"     : "letter-spacing",
             "ws"     : "word-spacing",
             "tt"     : "text-transform",
-            "lh"     : "line-height"
+            "lh"     : "line-height",
+            'cursor' : 'cursor' 
         };
 
         Object.keys(properties).forEach(prefix => {
