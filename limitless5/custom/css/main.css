@@ -303,11 +303,11 @@ tfoot,
 th,
 thead,
 tr {
-    border-color: #666;
+    /* border-color: #666; */
 }
 
 .table > thead > * > * {
-    border-color: #666;
+    /* border-color: #666; */
 }
 
 .datatable-header {
@@ -329,7 +329,7 @@ td.dataTables_empty {
 }
 
 .datatable-footer {
-    border-top-color: #666;
+    /* border-top-color: #666; */
 }
 
 /* label */
