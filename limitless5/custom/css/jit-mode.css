@@ -194,3 +194,8 @@
 [class^="cursor-"], [class*=" cursor-"] {
     cursor: var(--cursor, none) !important;
 }
+
+/* pointer-events */
+[class^="pe-"], [class*=" pe-"] {
+    pointer-events: var(--pe, none) !important;
+}
